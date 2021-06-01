@@ -18,35 +18,7 @@
 </head>
 
 <body id="inicio">
-    <header>
-        <nav class="navbar navbar-expand-md  mb-4 ">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon mt-2"><i class="fas fa-bars"></i></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item">
-                            <a class="nav-link active px-4 py-1" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1 " href="contactos.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div class="d-inline">
-                        <a href="" class="btn btn-rojo">Decargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php include_once("header.php"); ?>
     <main class="container">
         <div class="row">
             <div class="col-12 mt-4 text-center div-cohete">
@@ -68,21 +40,7 @@
         </div>
     </main>
 
-    <footer class="container">
-        <div class="row mt-5">
-            <div class="col-12 col-sm-3 text-center text-sm-start">
-                <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/nicol%C3%A1s-agosti-397903181/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0 sponsorcolor">
-                Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-            </div>
-            <div class="col-12 col-sm-3 text-sm-start  pt-2 p-sm-0 emailcolor">
-                <a href="mailto:info@nelsontarche.com">agostinicolas6557@gmail.com</a>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php"); ?>
     <div class="whatsapp">
         <a href="http://api.whatsapp.com/send?phone=2324528917" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>
