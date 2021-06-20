@@ -27,7 +27,7 @@
                 <a href="http://api.whatsapp.com/send?phone=2324528917" title="whatsapp" class="btn btn-rojo">Enviar mensaje</a>
             </div>
             <div class="col-sm-3 col-12 mt-4 offset-sm-1">
-                <img src="images/nicoo.jpg" width="300" height="300" alt="nicolas agosti" title="nicolas agosti"  class="rounded-circle" px-3>
+                <img src="images/nicolas.jpeg" width="300" height="300" alt="nicolas agosti" title="nicolas agosti"  class="rounded-circle" px-3>
 
             </div>
         </div>
@@ -230,9 +230,45 @@
                         </div>
                     </div>
                 </div>
-               
-           
-                
+                </section>
+        <section id="formacion" class="container">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                    <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
+                </div>
+            </div>
+            <div class="row shadow bg-white rounded p-1">
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                            <img src="images/csm.png" class="img-fluid baw" title="Colegio & Instituto Santa Maria">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Secundario Completo</h3>
+                            <h4>Colegio & Instituto Santa Maria</h4>
+                            <h5>2002 – 2016</h5>
+                            <p>https://www.institutosantamaria.com.ar/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                            <img src="images/cic.jpg" class="img-fluid baw" title="CIC">
+                        </div>
+                        <div class="col-12- col-sm-10 p-3">
+                            <h3>Bartender profesional</h3>
+                            <h4>Centro Internacional de Cocteleria</h4>
+                            <h5> marzo 2016 - mayo 2016</h5>
+                            <p>http://www.cursodecocteles.com/</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </section>
+   
 
 
                 <?php include_once("footer.php"); ?>
