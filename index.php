@@ -1,3 +1,8 @@
+<?php
+
+$pg = "inicio";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 

@@ -1,3 +1,8 @@
+<?php
+
+$pg = "contacto";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -66,11 +71,16 @@
             </div>
         </div>
     </main>
-   <?php include_once("footer.php"); ?>
-    
+    <?php include_once("footer.php"); ?>
+    <div class="whatsapp">
+        <a href="http://api.whatsapp.com/send?phone=2324528917" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    </div>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
 
+
+
+
+</body>
 
 </html>

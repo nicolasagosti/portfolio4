@@ -1,3 +1,8 @@
+<?php 
+
+$pg = "proyectos";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -33,7 +38,7 @@
             <div class="col-sm-4 col-12 p-sm-4 px-2 py-2">
                 <div class="row card ">
                     <div class="col-12 p-0">
-                        <img src="images/abmclientes.png" alt="" class="img-fluid">
+                        <img src="images/abmclientes.png" href= alt="" class="img-fluid">
                     </div>
                     <div class="col-12 color-degradante py-3">
                         <h2 class="proyectosh2"> ABM CLIENTES</h2>
@@ -45,7 +50,7 @@
                     </div>
                     <div class="row py-5">
                         <div class="col-6 ">
-                            <a href="" class="btn btn-rojo" target="_blank">Ver Online</a>
+                            <a href="http://localhost/php/abmclientes/" class="btn btn-rojo" target="_blank">Ver Online</a>
                         </div>
                         <div class="col-6   link-rojo text-center">
                             <a href="">codigo fuente</a>

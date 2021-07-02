@@ -1,3 +1,8 @@
+<?php
+
+$pg = "sobre-mi";
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -132,50 +137,15 @@
 
             </div>
         </section>
-        <section id="idiomas">
-            <div class="container py-2">
-                <div class="row py-5 mx-0">
-                    <div class="col-sm-6 col-12">
-                        <div class="row mr-sm-1 bg-white card-idioma shadow">
-                            <div class="col-4 text-center card">
-                                <i class="fas fa-comment-alt"></i>
-                            </div>
-                            <div class="col-8 p-4">
-                                <h2>IDIOMAS</h2>
-                                <ul>
-                                    <li>ESPAÑOL - Nativo</li>
-                                    <li>INGLÉS - nivel-1</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-12 py-3">
-                        <div class="row ml-sm-2 bg-white card-idioma shadow">
-                            <div class="col-4 text-center card">
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <div class="col-8 p-2">
-                                <h2>HOBBIES</h2>
-                                <ul>
-                                    <li>Artes Marciales Mixtas</li>
-                                    <li>Películas</li>
-                                    <li>Lectura</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+        
         <section id="experiencia" class="container">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
                     <h2><i class="fas fa-briefcase"></i> Experiencia</h2>
                 </div>
             </div>
+           
             <div class="row shadow bg-white rounded">
-    
                 <div class="col-12">
                     <div class="row">
                         <div class="col-2 px-5 py-3 my-auto d-none d-sm-block">
@@ -234,7 +204,7 @@
                     </div>
                 </div>
                 </section>
-        <section id="formacion" class="container">
+        <section id="formacion" class="container mb-5">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
                     <h2><i class="fas fa-graduation-cap"></i> Formación acádémica</h2>
@@ -271,6 +241,42 @@
             </div>
             
         </section>
+        <section id="idiomas">
+            <div class="container py-2">
+                <div class="row py-5 mx-0">
+                    <div class="col-sm-6 col-12">
+                        <div class="row mr-sm-1 bg-white card-idioma shadow">
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-comment-alt"></i>
+                            </div>
+                            <div class="col-8 p-4">
+                                <h2>IDIOMAS</h2>
+                                <ul>
+                                    <li>ESPAÑOL - Nativo</li>
+                                    <li>INGLÉS - nivel-1</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <div class="row ml-sm-2 bg-white card-idioma shadow">
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="col-8 p-2">
+                                <h2>HOBBIES</h2>
+                                <ul>
+                                    <li>Artes Marciales Mixtas</li>
+                                    <li>Películas</li>
+                                    <li>Lectura</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
    
 
 
